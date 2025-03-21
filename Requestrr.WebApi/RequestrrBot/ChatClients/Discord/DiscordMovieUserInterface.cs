@@ -199,7 +199,7 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
                 .WithTimestamp(DateTime.Now)
                 .WithUrl($"https://www.themoviedb.org/movie/{movie.TheMovieDbId}")
                 .WithThumbnail("https://jm-burri.ch/image/gomsplex.png")
-                .WithFooter("GoM's Plex Server");
+                .WithFooter("Powered by Requestrr");
 
             if (!string.IsNullOrWhiteSpace(movie.Overview))
             {

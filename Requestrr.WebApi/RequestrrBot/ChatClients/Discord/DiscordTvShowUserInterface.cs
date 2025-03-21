@@ -37,7 +37,7 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
                 .WithTitle(title)
                 .WithTimestamp(DateTime.Now)
                 .WithThumbnail("https://jm-burri.ch/image/gomsplex.png")
-                .WithFooter("GoM's Plex Server");
+                .WithFooter("Powered by Requestrr");
 
             if (!string.IsNullOrWhiteSpace(tvShow.Overview))
             {
