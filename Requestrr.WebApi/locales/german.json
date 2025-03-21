@@ -127,7 +127,7 @@
   "Discord.Command.Movie.Issue.Tmdb.Description": "Ausgabe des Films nach tmdb-ID melden",
   "Discord.Command.Movie.Issue.Tmdb.Option.Name": "id",
   "Discord.Command.Movie.Issue.Tmdb.Option.Description": "tmdb-ID des Films",
-  "Discord.Command.Tv.Issue.Title.Name": "serie",
+  "Discord.Command.Tv.Issue.Title.Name": "Serie",
   "Discord.Command.Tv.Issue.Title.Description": "Ausgabe der Fernsehsendung nach Titel melden",
   "Discord.Command.Tv.Issue.Title.Option.Name": "title",
   "Discord.Command.Tv.Issue.Title.Option.Description": "Titel der TV-Show",
