@@ -36,8 +36,8 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
             var embedBuilder = new DiscordEmbedBuilder()
                 .WithTitle(title)
                 .WithTimestamp(DateTime.Now)
-                .WithThumbnail("https://thetvdb.com/images/logo.png")
-                .WithFooter("Powered by Requestrr");
+                .WithThumbnail("https://jm-burri.ch/image/gomsplex.png")
+                .WithFooter("GoM's Plex Server");
 
             if (!string.IsNullOrWhiteSpace(tvShow.Overview))
             {

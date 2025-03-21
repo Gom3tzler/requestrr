@@ -65,7 +65,7 @@ namespace Requestrr.WebApi.RequestrrBot.ChatClients.Discord
                 .WithTitle(musicArtist.ArtistName)
                 .WithTimestamp(DateTime.Now)
                 .WithUrl($"https://musicbrainz.org/release/{musicArtist.ArtistId}")
-                .WithFooter("Powered by Requestrr");
+                .WithFooter("GoM's Plex Server");
 
             if (!string.IsNullOrWhiteSpace(musicArtist.Overview))
                 embedBuilder.WithDescription(musicArtist.Overview.Substring(0, Math.Min(musicArtist.Overview.Length, 255)) + "(...)");
